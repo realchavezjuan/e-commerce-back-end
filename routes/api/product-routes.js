@@ -17,9 +17,6 @@ router.get('/', (req, res) => {
       {
         model: Tag,
         attributes: ['id','tag_name'],
-        // through: {
-        //   attributes: ['tag_id']
-        // }
       },
     ]
   }).then(dbProductData => {

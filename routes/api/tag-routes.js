@@ -11,7 +11,7 @@ router.get('/', (req, res) => {
     include: [
       {
         model: Product,
-        attributes: ['id', 'product_name', 'price', 'stock']
+        attributes: ['id', 'product_name', 'price', 'stock'],
       }
     ]
   }).then(dbTagData => {
@@ -24,7 +24,7 @@ router.get('/:id', (req, res) => {
   // be sure to include its associated Product data
   Tag.findOne({
       where: {
-        id: req.body.id
+        id: req.params.id
       },
       include: [
         {
