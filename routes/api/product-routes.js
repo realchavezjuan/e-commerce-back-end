@@ -12,11 +12,13 @@ router.get('/', (req, res) => {
     include: [
       {
         model: Category,
-        attributes: ['id','category_name']
+        //attributes: ['id','category_name']
       },
       {
         model: Tag,
-        attributes: ['id','tag_name'],
+        through: ProductTag,
+        //attributes: ['id','tag_name']
+        
       },
     ]
   }).then(dbProductData => {
@@ -129,7 +131,7 @@ router.delete('/:id', (req, res) => {
   Product.destroy(
     {
       where: {
-        id: req.body.id
+        id: req.params.id
       }
     }
   ).then(dbProductData => {

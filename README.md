@@ -1,9 +1,9 @@
 # E-commerce Back End Starter Code
 
-## Screenshot
-![Alt text](/public/images/screenshot-homepage.png?raw=true "Homepage")
-
-## Description
+## User Story
+AS A manager at an internet retail company
+I WANT a back end for my e-commerce website that uses the latest technologies
+SO THAT my company can compete with other e-commerce companies.
 
 ## Built With
 - HTML
@@ -11,11 +11,12 @@
 - JavaScript
 - Node.js
 - SQL
-- JawsDB
 
 ## Video Link
 
+
 ## Github Repo
+https://github.com/realchavezjuan/e-commerce-back-end
 
 ## Contribution
 Made by Juan C Chavez
