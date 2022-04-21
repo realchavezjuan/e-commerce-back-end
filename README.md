@@ -16,7 +16,7 @@ SO THAT my company can compete with other e-commerce companies.
 - SQL
 
 ## Video Link
-
+https://drive.google.com/file/d/1NTdOcEPvu0yruLYdLYyg8tOtzhIhSNeq/view?usp=sharing
 
 ## Github Repo
 https://github.com/realchavezjuan/e-commerce-back-end
